@@ -1,4 +1,4 @@
-package com.yesiv.hrworker.resources;
+package com.yesiv.payroll.resources;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.yesiv.hrworker.entities.Payment;
-import com.yesiv.hrworker.services.PaymentService;
+import com.yesiv.payroll.entities.Payment;
+import com.yesiv.payroll.services.PaymentService;
 
 @RestController
 @RequestMapping(value = "/payments")

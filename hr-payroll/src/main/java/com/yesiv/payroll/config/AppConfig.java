@@ -1,4 +1,4 @@
-package com.yesiv.hrworker.config;
+package com.yesiv.payroll.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

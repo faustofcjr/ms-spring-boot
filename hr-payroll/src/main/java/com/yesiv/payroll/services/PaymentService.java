@@ -1,11 +1,11 @@
-package com.yesiv.hrworker.services;
+package com.yesiv.payroll.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.yesiv.hrworker.entities.Payment;
-import com.yesiv.hrworker.entities.Worker;
-import com.yesiv.hrworker.feignclients.WorkerFeignClient;
+import com.yesiv.payroll.entities.Payment;
+import com.yesiv.payroll.entities.Worker;
+import com.yesiv.payroll.feignclients.WorkerFeignClient;
 
 @Service
 public class PaymentService {
