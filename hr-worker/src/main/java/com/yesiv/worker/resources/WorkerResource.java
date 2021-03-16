@@ -1,4 +1,4 @@
-package com.yesiv.hrworker.resources;
+package com.yesiv.worker.resources;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.yesiv.hrworker.entities.Worker;
-import com.yesiv.hrworker.repositories.WorkerRepository;
+import com.yesiv.worker.entities.Worker;
+import com.yesiv.worker.repositories.WorkerRepository;
 
 @RestController
 @RequestMapping(value = "/workers")

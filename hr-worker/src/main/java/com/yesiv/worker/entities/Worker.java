@@ -1,4 +1,4 @@
-package com.yesiv.hrworker.entities;
+package com.yesiv.worker.entities;
 
 import java.io.Serializable;
 
