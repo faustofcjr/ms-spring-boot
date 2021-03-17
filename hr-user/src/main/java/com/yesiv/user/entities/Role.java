@@ -1,4 +1,4 @@
-package com.yesiv.worker.entities;
+package com.yesiv.user.entities;
 
 import java.io.Serializable;
 
@@ -9,16 +9,16 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tb_worker")
-public class Worker implements Serializable {
+@Table(name = "tb_role")
+public class Role implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String name;
-	private Double dailyIncome;
+
+	private String roleName;
 
 	public Long getId() {
 		return id;
@@ -28,20 +28,12 @@ public class Worker implements Serializable {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getRoleName() {
+		return roleName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public Double getDailyIncome() {
-		return dailyIncome;
-	}
-
-	public void setDailyIncome(Double dailyIncome) {
-		this.dailyIncome = dailyIncome;
+	public void setRoleName(String roleName) {
+		this.roleName = roleName;
 	}
 
 }
